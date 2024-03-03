@@ -1,1 +1,21 @@
-/* Write your CSS here! */
+/* Navigation tiles */
+div.nav-tile {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+  }
+  
+  div.nav-tile:hover {
+    border: 1px solid #777;
+  }
+  
+  div.nav-tile img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.nav {
+    padding: 15px;
+    text-align: left;
+  }
