@@ -1,9 +1,47 @@
+/* Text */
+
+h1 {
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Banner image and title */
+
+.banner {
+    height: 100%;
+  }
+  
+  /* Place text in the middle of the image */
+
+  .banner-text {
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    color: #0b1a45;
+}
+
 /* Navigation tiles */
 div.nav-tile {
-    margin: 5px;
+    margin: 3px;
     border: 1px solid #ccc;
     float: left;
-    width: 250px;
+    width: 245px;
   }
   
   div.nav-tile:hover {
