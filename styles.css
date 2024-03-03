@@ -8,6 +8,10 @@
 h2 {
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 h3 {
@@ -23,9 +27,9 @@ p {
 }
 
 .funParagraph {
-    color: #051e61;
+    color: #063cbb;
     font-style: italic;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
@@ -35,7 +39,7 @@ p {
 
 .banner {
     height: 100%;
-  }
+}
 
 .banner-text {
     text-align: center;
@@ -51,25 +55,60 @@ div.nav-tile {
     border: 1px solid #ccc;
     float: left;
     width: 245px;
-  }
+}
   
-  div.nav-tile:hover {
+div.nav-tile:hover {
     border: 1px solid #777;
-  }
+}
   
-  div.nav-tile img {
+div.nav-tile img {
     width: 100%;
     height: auto;
-  }
+}
   
-  div.nav {
+div.nav {
     padding: 15px;
     text-align: left;
-  }
+}
 
   /* Body */
 
-  body {
+body {
     margin: 8px;
     display: block;
-  }
+    width: 1536px;
+}
+
+  /* Section Grids */
+
+.grid-h-image {
+    display: grid;
+    grid-template-columns: 476px 1024px;
+    grid-template-rows: 768px;
+    height: 850px;
+    width: 1520px;
+    align-content: center;
+    border: 1px solid #ccc;
+}
+
+.grid-text-left {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 5px;   
+}
+
+.grid-v-image {
+    display: grid;
+    grid-template-columns: 770px 720px;
+    grid-template-rows: 980px;
+    height: 1000px;
+    width: 1520px;
+    align-content: center;
+    border: 1px solid #ccc;
+}
+
+.grid-text-right {
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
